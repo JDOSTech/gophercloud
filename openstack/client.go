@@ -138,6 +138,7 @@ func v2auth(client *gophercloud.ProviderClient, endpoint string, options gopherc
 		}
 	}
 	client.TokenID = token.ID
+	client.TokenExpires = token.ExpiresAt
 	client.EndpointLocator = func(opts gophercloud.EndpointOpts) (string, error) {
 		return V2EndpointURL(catalog, opts)
 	}
@@ -192,7 +193,7 @@ func v3auth(client *gophercloud.ProviderClient, endpoint string, options gopherc
 	}
 
 	client.TokenID = token.ID
-
+	client.TokenExpires = token.ExpiresAt
 	if options.AllowReauth {
 		client.ReauthFunc = func() error {
 			client.TokenID = ""
