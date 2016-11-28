@@ -8,6 +8,7 @@ import (
 	"io/ioutil"
 	"net/http"
 	"strings"
+	"time"
 )
 
 // DefaultUserAgent is the default User-Agent string set in the request header.
@@ -54,6 +55,8 @@ type ProviderClient struct {
 	// TokenID is the ID of the most recently issued valid token.
 	TokenID string
 
+	//Time of token exprires
+	TokenExpires time.Time
 	// EndpointLocator describes how this provider discovers the endpoints for
 	// its constituent services.
 	EndpointLocator EndpointLocator
