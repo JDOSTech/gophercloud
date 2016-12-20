@@ -3,12 +3,12 @@ package lbaas
 import (
 	"testing"
 
-	base "github.com/rackspace/gophercloud/acceptance/openstack/networking/v2"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/extensions/lbaas/monitors"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/extensions/lbaas/pools"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/networks"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/subnets"
-	th "github.com/rackspace/gophercloud/testhelper"
+	base "github.com/JDOSTech/gophercloud/acceptance/openstack/networking/v2"
+	"github.com/JDOSTech/gophercloud/openstack/networking/v2/extensions/lbaas/monitors"
+	"github.com/JDOSTech/gophercloud/openstack/networking/v2/extensions/lbaas/pools"
+	"github.com/JDOSTech/gophercloud/openstack/networking/v2/networks"
+	"github.com/JDOSTech/gophercloud/openstack/networking/v2/subnets"
+	th "github.com/JDOSTech/gophercloud/testhelper"
 )
 
 func SetupTopology(t *testing.T) (string, string) {

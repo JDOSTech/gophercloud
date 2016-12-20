@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	th "github.com/rackspace/gophercloud/testhelper"
-	"github.com/rackspace/gophercloud/testhelper/client"
+	th "github.com/JDOSTech/gophercloud/testhelper"
+	"github.com/JDOSTech/gophercloud/testhelper/client"
 )
 
 // PolicyListBody contains the canned body of a policies.List response.

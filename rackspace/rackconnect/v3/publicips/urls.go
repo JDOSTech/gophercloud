@@ -1,6 +1,6 @@
 package publicips
 
-import "github.com/rackspace/gophercloud"
+import "github.com/JDOSTech/gophercloud"
 
 var root = "public_ips"
 

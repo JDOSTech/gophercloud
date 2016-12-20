@@ -4,8 +4,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud"
+	"github.com/JDOSTech/gophercloud/pagination"
 )
 
 func commonList(client *gophercloud.ServiceClient, url string) pagination.Pager {

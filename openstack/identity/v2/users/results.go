@@ -3,8 +3,8 @@ package users
 import (
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud"
+	"github.com/JDOSTech/gophercloud/pagination"
 )
 
 // User represents a user resource that exists on the API.

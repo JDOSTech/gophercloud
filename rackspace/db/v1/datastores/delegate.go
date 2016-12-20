@@ -1,9 +1,9 @@
 package datastores
 
 import (
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/db/v1/datastores"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud"
+	os "github.com/JDOSTech/gophercloud/openstack/db/v1/datastores"
+	"github.com/JDOSTech/gophercloud/pagination"
 )
 
 // List will list all available flavors.

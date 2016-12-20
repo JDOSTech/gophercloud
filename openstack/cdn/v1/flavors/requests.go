@@ -1,8 +1,8 @@
 package flavors
 
 import (
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud"
+	"github.com/JDOSTech/gophercloud/pagination"
 )
 
 // List returns a single page of CDN flavors.

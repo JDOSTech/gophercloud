@@ -2,8 +2,8 @@ package datastores
 
 import (
 	"github.com/mitchellh/mapstructure"
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud"
+	"github.com/JDOSTech/gophercloud/pagination"
 )
 
 // Version represents a version API resource. Multiple versions belong to a Datastore.

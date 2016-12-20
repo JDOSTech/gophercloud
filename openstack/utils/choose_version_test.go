@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/testhelper"
+	"github.com/JDOSTech/gophercloud"
+	"github.com/JDOSTech/gophercloud/testhelper"
 )
 
 func setupVersionHandler() {

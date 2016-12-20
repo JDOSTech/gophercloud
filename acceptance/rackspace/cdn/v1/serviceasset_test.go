@@ -5,10 +5,10 @@ package v1
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	osServiceAssets "github.com/rackspace/gophercloud/openstack/cdn/v1/serviceassets"
-	"github.com/rackspace/gophercloud/rackspace/cdn/v1/serviceassets"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/JDOSTech/gophercloud"
+	osServiceAssets "github.com/JDOSTech/gophercloud/openstack/cdn/v1/serviceassets"
+	"github.com/JDOSTech/gophercloud/rackspace/cdn/v1/serviceassets"
+	th "github.com/JDOSTech/gophercloud/testhelper"
 )
 
 func TestServiceAsset(t *testing.T) {

@@ -5,11 +5,11 @@ package v1
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/blockstorage/v1/volumes"
-	"github.com/rackspace/gophercloud/pagination"
-	"github.com/rackspace/gophercloud/rackspace/blockstorage/v1/volumes"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/JDOSTech/gophercloud"
+	os "github.com/JDOSTech/gophercloud/openstack/blockstorage/v1/volumes"
+	"github.com/JDOSTech/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud/rackspace/blockstorage/v1/volumes"
+	th "github.com/JDOSTech/gophercloud/testhelper"
 )
 
 func TestVolumes(t *testing.T) {

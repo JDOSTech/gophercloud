@@ -4,8 +4,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud"
+	"github.com/JDOSTech/gophercloud/pagination"
 )
 
 // Rollback is used to specify whether or not a stack can be rolled back.

@@ -2,10 +2,10 @@ package portsbinding
 
 import (
 	"github.com/mitchellh/mapstructure"
-	"github.com/rackspace/gophercloud"
+	"github.com/JDOSTech/gophercloud"
 
-	"github.com/rackspace/gophercloud/openstack/networking/v2/ports"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud/openstack/networking/v2/ports"
+	"github.com/JDOSTech/gophercloud/pagination"
 )
 
 type commonResult struct {

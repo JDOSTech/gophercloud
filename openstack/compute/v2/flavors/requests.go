@@ -3,8 +3,8 @@ package flavors
 import (
 	"fmt"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud"
+	"github.com/JDOSTech/gophercloud/pagination"
 )
 
 // ListOptsBuilder allows extensions to add additional parameters to the

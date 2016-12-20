@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rackspace/gophercloud/rackspace/identity/v2/tokens"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/JDOSTech/gophercloud/rackspace/identity/v2/tokens"
+	th "github.com/JDOSTech/gophercloud/testhelper"
 )
 
 func TestTokenAuth(t *testing.T) {

@@ -2,8 +2,8 @@ package subnets
 
 import (
 	"encoding/json"
-	"github.com/rackspace/gophercloud"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/JDOSTech/gophercloud"
+	th "github.com/JDOSTech/gophercloud/testhelper"
 	"testing"
 )
 

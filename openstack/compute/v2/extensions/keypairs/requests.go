@@ -3,9 +3,9 @@ package keypairs
 import (
 	"errors"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/openstack/compute/v2/servers"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud"
+	"github.com/JDOSTech/gophercloud/openstack/compute/v2/servers"
+	"github.com/JDOSTech/gophercloud/pagination"
 )
 
 // CreateOptsExt adds a KeyPair option to the base CreateOpts.

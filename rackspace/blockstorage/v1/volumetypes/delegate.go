@@ -1,9 +1,9 @@
 package volumetypes
 
 import (
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/blockstorage/v1/volumetypes"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud"
+	os "github.com/JDOSTech/gophercloud/openstack/blockstorage/v1/volumetypes"
+	"github.com/JDOSTech/gophercloud/pagination"
 )
 
 // List returns all volume types.

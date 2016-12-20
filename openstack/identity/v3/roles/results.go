@@ -1,7 +1,7 @@
 package roles
 
 import (
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud/pagination"
 
 	"github.com/mitchellh/mapstructure"
 )

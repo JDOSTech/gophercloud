@@ -3,12 +3,12 @@ package users
 import (
 	"testing"
 
-	db "github.com/rackspace/gophercloud/openstack/db/v1/databases"
-	os "github.com/rackspace/gophercloud/openstack/db/v1/users"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
-	"github.com/rackspace/gophercloud/testhelper/fixture"
+	db "github.com/JDOSTech/gophercloud/openstack/db/v1/databases"
+	os "github.com/JDOSTech/gophercloud/openstack/db/v1/users"
+	"github.com/JDOSTech/gophercloud/pagination"
+	th "github.com/JDOSTech/gophercloud/testhelper"
+	fake "github.com/JDOSTech/gophercloud/testhelper/client"
+	"github.com/JDOSTech/gophercloud/testhelper/fixture"
 )
 
 var (

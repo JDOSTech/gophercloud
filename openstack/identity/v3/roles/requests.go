@@ -1,8 +1,8 @@
 package roles
 
 import (
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud"
+	"github.com/JDOSTech/gophercloud/pagination"
 )
 
 // ListAssignmentsOptsBuilder allows extensions to add additional parameters to

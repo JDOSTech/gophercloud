@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"testing"
 
-	th "github.com/rackspace/gophercloud/testhelper"
-	"github.com/rackspace/gophercloud/testhelper/client"
+	th "github.com/JDOSTech/gophercloud/testhelper"
+	"github.com/JDOSTech/gophercloud/testhelper/client"
 )
 
 // GetOutput is a sample response to a Get call.

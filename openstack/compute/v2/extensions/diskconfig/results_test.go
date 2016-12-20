@@ -3,10 +3,10 @@ package diskconfig
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud/openstack/compute/v2/servers"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	"github.com/rackspace/gophercloud/testhelper/client"
+	"github.com/JDOSTech/gophercloud/openstack/compute/v2/servers"
+	"github.com/JDOSTech/gophercloud/pagination"
+	th "github.com/JDOSTech/gophercloud/testhelper"
+	"github.com/JDOSTech/gophercloud/testhelper/client"
 )
 
 func TestExtractGet(t *testing.T) {

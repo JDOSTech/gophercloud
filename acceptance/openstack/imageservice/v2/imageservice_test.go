@@ -7,10 +7,10 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/rackspace/gophercloud/acceptance/tools"
-	"github.com/rackspace/gophercloud/openstack/imageservice/v2/images"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/JDOSTech/gophercloud/acceptance/tools"
+	"github.com/JDOSTech/gophercloud/openstack/imageservice/v2/images"
+	"github.com/JDOSTech/gophercloud/pagination"
+	th "github.com/JDOSTech/gophercloud/testhelper"
 )
 
 func TestListImages(t *testing.T) {

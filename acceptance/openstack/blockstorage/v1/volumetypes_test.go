@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rackspace/gophercloud/openstack/blockstorage/v1/volumetypes"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/JDOSTech/gophercloud/openstack/blockstorage/v1/volumetypes"
+	"github.com/JDOSTech/gophercloud/pagination"
+	th "github.com/JDOSTech/gophercloud/testhelper"
 )
 
 func TestVolumeTypes(t *testing.T) {

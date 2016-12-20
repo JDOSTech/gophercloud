@@ -1,6 +1,6 @@
 package floatingips
 
-import "github.com/rackspace/gophercloud"
+import "github.com/JDOSTech/gophercloud"
 
 const resourcePath = "floatingips"
 

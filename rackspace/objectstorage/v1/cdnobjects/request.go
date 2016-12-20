@@ -1,8 +1,8 @@
 package cdnobjects
 
 import (
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/rackspace/objectstorage/v1/cdncontainers"
+	"github.com/JDOSTech/gophercloud"
+	"github.com/JDOSTech/gophercloud/rackspace/objectstorage/v1/cdncontainers"
 )
 
 // CDNURL returns the unique CDN URI for the given container and object.

@@ -1,8 +1,8 @@
 package pools
 
 import (
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud"
+	"github.com/JDOSTech/gophercloud/pagination"
 )
 
 // ListOpts allows the filtering and sorting of paginated collections through

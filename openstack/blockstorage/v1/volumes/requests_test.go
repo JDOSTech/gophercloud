@@ -3,10 +3,10 @@ package volumes
 import (
 	"testing"
 
-	fixtures "github.com/rackspace/gophercloud/openstack/blockstorage/v1/volumes/testing"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	"github.com/rackspace/gophercloud/testhelper/client"
+	fixtures "github.com/JDOSTech/gophercloud/openstack/blockstorage/v1/volumes/testing"
+	"github.com/JDOSTech/gophercloud/pagination"
+	th "github.com/JDOSTech/gophercloud/testhelper"
+	"github.com/JDOSTech/gophercloud/testhelper/client"
 )
 
 func TestList(t *testing.T) {

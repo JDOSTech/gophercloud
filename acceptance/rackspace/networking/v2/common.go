@@ -4,9 +4,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/rackspace"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/JDOSTech/gophercloud"
+	"github.com/JDOSTech/gophercloud/rackspace"
+	th "github.com/JDOSTech/gophercloud/testhelper"
 )
 
 var Client *gophercloud.ServiceClient

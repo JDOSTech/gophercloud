@@ -2,8 +2,8 @@ package pools
 
 import (
 	"fmt"
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud"
+	"github.com/JDOSTech/gophercloud/pagination"
 )
 
 // AdminState gives users a solid type to work with for create and update

@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
+	"github.com/JDOSTech/gophercloud/pagination"
+	th "github.com/JDOSTech/gophercloud/testhelper"
+	fake "github.com/JDOSTech/gophercloud/testhelper/client"
 )
 
 func TestDownloadReader(t *testing.T) {

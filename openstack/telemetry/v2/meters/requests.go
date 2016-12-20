@@ -1,7 +1,7 @@
 package meters
 
 import (
-	"github.com/rackspace/gophercloud"
+	"github.com/JDOSTech/gophercloud"
 )
 
 // ListOptsBuilder allows extensions to add additional parameters to the

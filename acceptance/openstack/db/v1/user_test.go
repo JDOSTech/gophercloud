@@ -3,10 +3,10 @@
 package v1
 
 import (
-	"github.com/rackspace/gophercloud/acceptance/tools"
-	db "github.com/rackspace/gophercloud/openstack/db/v1/databases"
-	u "github.com/rackspace/gophercloud/openstack/db/v1/users"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud/acceptance/tools"
+	db "github.com/JDOSTech/gophercloud/openstack/db/v1/databases"
+	u "github.com/JDOSTech/gophercloud/openstack/db/v1/users"
+	"github.com/JDOSTech/gophercloud/pagination"
 )
 
 func (c context) createUsers() {

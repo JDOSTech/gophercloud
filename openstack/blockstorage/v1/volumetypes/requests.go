@@ -1,8 +1,8 @@
 package volumetypes
 
 import (
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud"
+	"github.com/JDOSTech/gophercloud/pagination"
 )
 
 // CreateOptsBuilder allows extensions to add additional parameters to the

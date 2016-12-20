@@ -3,8 +3,8 @@ package servergroups
 import (
 	"errors"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud"
+	"github.com/JDOSTech/gophercloud/pagination"
 )
 
 // List returns a Pager that allows you to iterate over a collection of ServerGroups.

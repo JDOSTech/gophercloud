@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	th "github.com/rackspace/gophercloud/testhelper"
-	"github.com/rackspace/gophercloud/testhelper/client"
+	"github.com/JDOSTech/gophercloud"
+	th "github.com/JDOSTech/gophercloud/testhelper"
+	"github.com/JDOSTech/gophercloud/testhelper/client"
 	"golang.org/x/crypto/ssh"
 )
 

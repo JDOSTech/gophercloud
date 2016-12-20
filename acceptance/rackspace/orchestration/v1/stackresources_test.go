@@ -5,13 +5,13 @@ package v1
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	osStackResources "github.com/rackspace/gophercloud/openstack/orchestration/v1/stackresources"
-	osStacks "github.com/rackspace/gophercloud/openstack/orchestration/v1/stacks"
-	"github.com/rackspace/gophercloud/pagination"
-	"github.com/rackspace/gophercloud/rackspace/orchestration/v1/stackresources"
-	"github.com/rackspace/gophercloud/rackspace/orchestration/v1/stacks"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/JDOSTech/gophercloud"
+	osStackResources "github.com/JDOSTech/gophercloud/openstack/orchestration/v1/stackresources"
+	osStacks "github.com/JDOSTech/gophercloud/openstack/orchestration/v1/stacks"
+	"github.com/JDOSTech/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud/rackspace/orchestration/v1/stackresources"
+	"github.com/JDOSTech/gophercloud/rackspace/orchestration/v1/stacks"
+	th "github.com/JDOSTech/gophercloud/testhelper"
 )
 
 func TestStackResources(t *testing.T) {

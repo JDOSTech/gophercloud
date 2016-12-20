@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/mitchellh/mapstructure"
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/openstack/db/v1/datastores"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud"
+	"github.com/JDOSTech/gophercloud/openstack/db/v1/datastores"
+	"github.com/JDOSTech/gophercloud/pagination"
 )
 
 // Status represents the various states a Backup can be in.

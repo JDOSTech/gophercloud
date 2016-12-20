@@ -6,13 +6,13 @@ import (
 
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
-	"github.com/rackspace/gophercloud/rackspace/lb/v1/acl"
-	"github.com/rackspace/gophercloud/rackspace/lb/v1/nodes"
-	"github.com/rackspace/gophercloud/rackspace/lb/v1/sessions"
-	"github.com/rackspace/gophercloud/rackspace/lb/v1/throttle"
-	"github.com/rackspace/gophercloud/rackspace/lb/v1/vips"
+	"github.com/JDOSTech/gophercloud"
+	"github.com/JDOSTech/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud/rackspace/lb/v1/acl"
+	"github.com/JDOSTech/gophercloud/rackspace/lb/v1/nodes"
+	"github.com/JDOSTech/gophercloud/rackspace/lb/v1/sessions"
+	"github.com/JDOSTech/gophercloud/rackspace/lb/v1/throttle"
+	"github.com/JDOSTech/gophercloud/rackspace/lb/v1/vips"
 )
 
 // Protocol represents the network protocol which the load balancer accepts.

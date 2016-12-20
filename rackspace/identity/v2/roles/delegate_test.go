@@ -3,10 +3,10 @@ package roles
 import (
 	"testing"
 
-	os "github.com/rackspace/gophercloud/openstack/identity/v2/extensions/admin/roles"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	"github.com/rackspace/gophercloud/testhelper/client"
+	os "github.com/JDOSTech/gophercloud/openstack/identity/v2/extensions/admin/roles"
+	"github.com/JDOSTech/gophercloud/pagination"
+	th "github.com/JDOSTech/gophercloud/testhelper"
+	"github.com/JDOSTech/gophercloud/testhelper/client"
 )
 
 func TestRole(t *testing.T) {

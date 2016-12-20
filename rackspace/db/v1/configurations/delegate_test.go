@@ -3,12 +3,12 @@ package configurations
 import (
 	"testing"
 
-	os "github.com/rackspace/gophercloud/openstack/db/v1/configurations"
-	"github.com/rackspace/gophercloud/pagination"
-	"github.com/rackspace/gophercloud/rackspace/db/v1/instances"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
-	"github.com/rackspace/gophercloud/testhelper/fixture"
+	os "github.com/JDOSTech/gophercloud/openstack/db/v1/configurations"
+	"github.com/JDOSTech/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud/rackspace/db/v1/instances"
+	th "github.com/JDOSTech/gophercloud/testhelper"
+	fake "github.com/JDOSTech/gophercloud/testhelper/client"
+	"github.com/JDOSTech/gophercloud/testhelper/fixture"
 )
 
 var (

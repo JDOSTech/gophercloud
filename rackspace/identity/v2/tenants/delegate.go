@@ -1,9 +1,9 @@
 package tenants
 
 import (
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/identity/v2/tenants"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud"
+	os "github.com/JDOSTech/gophercloud/openstack/identity/v2/tenants"
+	"github.com/JDOSTech/gophercloud/pagination"
 )
 
 // ExtractTenants interprets a page of List results as a more usable slice of Tenant structs.

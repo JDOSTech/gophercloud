@@ -5,10 +5,10 @@ package v1
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud/acceptance/tools"
-	"github.com/rackspace/gophercloud/pagination"
-	"github.com/rackspace/gophercloud/rackspace/db/v1/instances"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/JDOSTech/gophercloud/acceptance/tools"
+	"github.com/JDOSTech/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud/rackspace/db/v1/instances"
+	th "github.com/JDOSTech/gophercloud/testhelper"
 )
 
 func TestRunner(t *testing.T) {

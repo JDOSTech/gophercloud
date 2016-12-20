@@ -2,7 +2,7 @@ package volumeactions
 
 import (
 	"github.com/mitchellh/mapstructure"
-	"github.com/rackspace/gophercloud"
+	"github.com/JDOSTech/gophercloud"
 )
 
 type commonResult struct {

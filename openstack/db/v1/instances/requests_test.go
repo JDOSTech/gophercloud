@@ -3,11 +3,11 @@ package instances
 import (
 	"testing"
 
-	db "github.com/rackspace/gophercloud/openstack/db/v1/databases"
-	"github.com/rackspace/gophercloud/openstack/db/v1/users"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
+	db "github.com/JDOSTech/gophercloud/openstack/db/v1/databases"
+	"github.com/JDOSTech/gophercloud/openstack/db/v1/users"
+	"github.com/JDOSTech/gophercloud/pagination"
+	th "github.com/JDOSTech/gophercloud/testhelper"
+	fake "github.com/JDOSTech/gophercloud/testhelper/client"
 )
 
 func TestCreate(t *testing.T) {

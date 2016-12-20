@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fakeclient "github.com/rackspace/gophercloud/testhelper/client"
+	"github.com/JDOSTech/gophercloud/pagination"
+	th "github.com/JDOSTech/gophercloud/testhelper"
+	fakeclient "github.com/JDOSTech/gophercloud/testhelper/client"
 )
 
 const createdAtString = "2013-09-20T19:22:19Z"

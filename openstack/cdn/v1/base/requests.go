@@ -1,6 +1,6 @@
 package base
 
-import "github.com/rackspace/gophercloud"
+import "github.com/JDOSTech/gophercloud"
 
 // Get retrieves the home document, allowing the user to discover the
 // entire API.

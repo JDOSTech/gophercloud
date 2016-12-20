@@ -3,8 +3,8 @@ package backups
 import (
 	"errors"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud"
+	"github.com/JDOSTech/gophercloud/pagination"
 )
 
 // CreateOptsBuilder is the top-level interface for creating JSON maps.

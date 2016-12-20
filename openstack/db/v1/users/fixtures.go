@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/rackspace/gophercloud/testhelper/fixture"
+	"github.com/JDOSTech/gophercloud/testhelper/fixture"
 )
 
 const user1 = `

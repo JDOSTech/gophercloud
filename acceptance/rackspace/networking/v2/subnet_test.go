@@ -5,12 +5,12 @@ package v2
 import (
 	"testing"
 
-	osNetworks "github.com/rackspace/gophercloud/openstack/networking/v2/networks"
-	osSubnets "github.com/rackspace/gophercloud/openstack/networking/v2/subnets"
-	"github.com/rackspace/gophercloud/pagination"
-	"github.com/rackspace/gophercloud/rackspace/networking/v2/networks"
-	"github.com/rackspace/gophercloud/rackspace/networking/v2/subnets"
-	th "github.com/rackspace/gophercloud/testhelper"
+	osNetworks "github.com/JDOSTech/gophercloud/openstack/networking/v2/networks"
+	osSubnets "github.com/JDOSTech/gophercloud/openstack/networking/v2/subnets"
+	"github.com/JDOSTech/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud/rackspace/networking/v2/networks"
+	"github.com/JDOSTech/gophercloud/rackspace/networking/v2/subnets"
+	th "github.com/JDOSTech/gophercloud/testhelper"
 )
 
 func TestListSubnets(t *testing.T) {

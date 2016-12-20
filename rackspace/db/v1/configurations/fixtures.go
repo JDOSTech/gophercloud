@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	os "github.com/rackspace/gophercloud/openstack/db/v1/configurations"
+	os "github.com/JDOSTech/gophercloud/openstack/db/v1/configurations"
 )
 
 var (

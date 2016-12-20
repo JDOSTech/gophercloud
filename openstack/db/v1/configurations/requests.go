@@ -3,9 +3,9 @@ package configurations
 import (
 	"errors"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/openstack/db/v1/instances"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud"
+	"github.com/JDOSTech/gophercloud/openstack/db/v1/instances"
+	"github.com/JDOSTech/gophercloud/pagination"
 )
 
 // List will list all of the available configurations.

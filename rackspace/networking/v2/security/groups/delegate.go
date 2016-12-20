@@ -1,9 +1,9 @@
 package groups
 
 import (
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/networking/v2/extensions/security/groups"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud"
+	os "github.com/JDOSTech/gophercloud/openstack/networking/v2/extensions/security/groups"
+	"github.com/JDOSTech/gophercloud/pagination"
 )
 
 // List returns a Pager which allows you to iterate over a collection of

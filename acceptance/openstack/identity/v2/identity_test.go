@@ -5,9 +5,9 @@ package v2
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/openstack"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/JDOSTech/gophercloud"
+	"github.com/JDOSTech/gophercloud/openstack"
+	th "github.com/JDOSTech/gophercloud/testhelper"
 )
 
 func v2AuthOptions(t *testing.T) gophercloud.AuthOptions {

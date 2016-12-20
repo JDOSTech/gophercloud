@@ -6,16 +6,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rackspace/gophercloud"
-	base "github.com/rackspace/gophercloud/acceptance/openstack/networking/v2"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/extensions/lbaas_v2/listeners"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/extensions/lbaas_v2/loadbalancers"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/extensions/lbaas_v2/monitors"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/extensions/lbaas_v2/pools"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/networks"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/subnets"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/JDOSTech/gophercloud"
+	base "github.com/JDOSTech/gophercloud/acceptance/openstack/networking/v2"
+	"github.com/JDOSTech/gophercloud/openstack/networking/v2/extensions/lbaas_v2/listeners"
+	"github.com/JDOSTech/gophercloud/openstack/networking/v2/extensions/lbaas_v2/loadbalancers"
+	"github.com/JDOSTech/gophercloud/openstack/networking/v2/extensions/lbaas_v2/monitors"
+	"github.com/JDOSTech/gophercloud/openstack/networking/v2/extensions/lbaas_v2/pools"
+	"github.com/JDOSTech/gophercloud/openstack/networking/v2/networks"
+	"github.com/JDOSTech/gophercloud/openstack/networking/v2/subnets"
+	"github.com/JDOSTech/gophercloud/pagination"
+	th "github.com/JDOSTech/gophercloud/testhelper"
 )
 
 // Note: when creating a new Loadbalancer (VM), it can take some time before it is ready for use,

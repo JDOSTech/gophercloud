@@ -3,8 +3,8 @@ package webhooks
 import (
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud"
+	"github.com/JDOSTech/gophercloud/pagination"
 )
 
 type webhookResult struct {

@@ -1,8 +1,8 @@
 package virtualinterfaces
 
 import (
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/JDOSTech/gophercloud"
+	"github.com/JDOSTech/gophercloud/pagination"
 )
 
 // List returns a Pager which allows you to iterate over a collection of
