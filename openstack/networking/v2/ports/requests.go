@@ -45,6 +45,7 @@ type ListOpts struct {
 	Marker       string `q:"marker"`
 	SortKey      string `q:"sort_key"`
 	SortDir      string `q:"sort_dir"`
+	FixedIPs     string `q:"fixed_ips"`
 }
 
 // ToPortListQuery formats a ListOpts into a query string.
