@@ -178,6 +178,7 @@ type UpdateOpts struct {
 	DeviceID            string
 	DeviceOwner         string
 	SecurityGroups      []string
+	DeleteFlag	    *bool
 	AllowedAddressPairs []AddressPair
 }
 
@@ -199,6 +200,9 @@ func (opts UpdateOpts) ToPortUpdateMap() (map[string]interface{}, error) {
 	}
 	if opts.AdminStateUp != nil {
 		p["admin_state_up"] = &opts.AdminStateUp
+	}
+	if opts.DeleteFlag != nil{
+		p["delete"] = &opts.DeleteFlag
 	}
 	if opts.Name != "" {
 		p["name"] = opts.Name
