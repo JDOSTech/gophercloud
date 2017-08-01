@@ -7,7 +7,7 @@ import (
 	"io"
 	"io/ioutil"
 	"net/http"
-	"strings"
+//	"strings"
 	"time"
 )
 
@@ -19,6 +19,7 @@ type UserAgent struct {
 	// prepend is the slice of User-Agent strings to prepend to DefaultUserAgent.
 	// All the strings to prepend are accumulated and prepended in the Join method.
 	prepend []string
+	agent string
 }
 
 // Prepend prepends a user-defined string to the default User-Agent string. Users
@@ -27,11 +28,16 @@ func (ua *UserAgent) Prepend(s ...string) {
 	ua.prepend = append(s, ua.prepend...)
 }
 
+func (ua *UserAgent) Set(s string) {
+        ua.agent = s
+}
+
 // Join concatenates all the user-defined User-Agend strings with the default
 // Gophercloud User-Agent string.
 func (ua *UserAgent) Join() string {
-	uaSlice := append(ua.prepend, DefaultUserAgent)
-	return strings.Join(uaSlice, " ")
+	//uaSlice := append(ua.prepend, DefaultUserAgent)
+	//return strings.Join(uaSlice, " ")
+	return ua.agent
 }
 
 // ProviderClient stores details that are required to interact with any
